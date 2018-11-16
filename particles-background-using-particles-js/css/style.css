@@ -77,6 +77,7 @@ body {
   width: 90px;
   margin-left: 25px;
 }
+
 .wrapper::after {
   content: "";
   display: table;
@@ -151,7 +152,7 @@ a:hover {
   top: 23px;
 }
 .btn{
-  background-color: transparent;
+  background-color:transparent;
 }
 .btncolor{
   background-color:#27b387;
@@ -173,12 +174,13 @@ a:hover {
 
 #contact input[type="email"],
 #contact input[type="email"],
+#contact input[type="file"],
 #contact textarea,
 #contact button[type="submit"] {
   font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
 }
 #input {
-  border-radius: 0px !important;
+  border-radius: 20px !important;
   border-top-style: none !important;
   border-left-style: none !important;
   border-right-style: none !important;
@@ -228,6 +230,7 @@ fieldset {
 #contact input[type="email"]:hover,
 #contact input[type="tel"]:hover,
 #contact input[type="url"]:hover,
+#contact input[type="file"]:hover,
 #contact textarea:hover {
   -webkit-transition: border-color 0.3s ease-in-out;
   -moz-transition: border-color 0.3s ease-in-out;
@@ -239,6 +242,9 @@ fieldset {
   height: 100px;
   max-width: 100%;
   resize: none;
+}
+#contact input[type="file"]{
+  border;
 }
 
 #contact button[type="submit"] {
